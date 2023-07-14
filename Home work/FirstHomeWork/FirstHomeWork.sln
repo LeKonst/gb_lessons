@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingNumbers.Tests", "ComparingNumbers.Tests\ComparingNumbers.Tests.csproj", "{F64482C4-DEE6-4142-9A6F-6C7E621BBA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparingNumbersService", "ComparingNumbersService\ComparingNumbersService.csproj", "{D255BFD4-0B5B-4052-AD9A-62E0F25F9276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2AD4199-6B05-4397-A5F6-5D70262C29EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AD4199-6B05-4397-A5F6-5D70262C29EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AD4199-6B05-4397-A5F6-5D70262C29EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AD4199-6B05-4397-A5F6-5D70262C29EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64482C4-DEE6-4142-9A6F-6C7E621BBA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64482C4-DEE6-4142-9A6F-6C7E621BBA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64482C4-DEE6-4142-9A6F-6C7E621BBA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64482C4-DEE6-4142-9A6F-6C7E621BBA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA197DE-F315-42C6-A04C-7311A76E39BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA197DE-F315-42C6-A04C-7311A76E39BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA197DE-F315-42C6-A04C-7311A76E39BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA197DE-F315-42C6-A04C-7311A76E39BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D255BFD4-0B5B-4052-AD9A-62E0F25F9276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D255BFD4-0B5B-4052-AD9A-62E0F25F9276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D255BFD4-0B5B-4052-AD9A-62E0F25F9276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D255BFD4-0B5B-4052-AD9A-62E0F25F9276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
