@@ -17,7 +17,7 @@ namespace MaxMinNumber
            ComparingNumbers comparingNumbers = new ComparingNumbers();
            int first_number, second_number;
            first_number = inputNumber("Input first number: ");
-           second_number = inputNumber("Input first number: ");
+           second_number = inputNumber("Input second number: ");
 
            Console.WriteLine("Max number {0}", comparingNumbers.MaxNumber(first_number, second_number));
            Console.WriteLine("Min number {0}", comparingNumbers.MinNumber(first_number, second_number)); 
@@ -27,14 +27,14 @@ namespace MaxMinNumber
         {
             int result;
             result = 0;
-            Console.Write("Input first number: ");
+            Console.Write(TextForInput);
             try
             {
                 result = Convert.ToInt32(Console.ReadLine());
             }
             catch (Exception)
             {
-                Console.Write("Enter a numeric value!");
+                Console.WriteLine("Enter a numeric value!");
                 return 0;
             }
             return result;
